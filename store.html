@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>紫罗兰的神秘商店</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/css/Bootstrap-4---Payment-Form.css">
+    <link rel="stylesheet" href="assets/css/Contact-FormModal-Contact-Form-with-Google-Map.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/Newsletter-Subscription-Form.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Login-Form.css">
+    <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
+    <link rel="stylesheet" href="assets/css/smoothproducts.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
+        <div class="container"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button><a class="navbar-brand logo" href="#" style="height: 41px;margin: 0px;filter: sepia(0%);">Warframe 导航</a>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">主页</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="features.html">紫罗兰的神秘商店</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="pricing.html">游戏工具</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="about-us.html">加入氏族同盟群</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="contact-us.html">联系我们</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <main class="page"></main>
+    <div class="card"></div>
+    <div class="newsletter-subscribe" style="height: 210px;">
+        <div class="container">
+            <div class="intro" style="height: 76px;width: 1000px;">
+                <h2 class="text-center" style="height: 13px;">物品价格查询</h2>
+                <p class="text-center">请注意，必须输入准确的名称，注意空格。除战甲外都需要输入中文名称。否则可能不会返回任何结果。</p>
+            </div>
+            <form class="form-inline" method="post" action="data/items.php">
+                <div class="form-group"><input class="form-control" type="text" name="name" required placeholder="物品名称" style="width: 400px;height: 44px;"></div>
+                <div class="form-group"><button class="btn btn-primary" type="submit">查询</button></div>
+            </form>
+        </div>
+    </div>
+    <div class="shadow-none register-photo" style="top: 500px">
+        <div class="form-container">
+            <form class="text-left" method="post" action="/data/data.php">
+                <h2 class="text-center"><strong>提交物品信息</strong></h2>
+                <div class="form-group"><input class="form-control" type="text" name="user" required placeholder="游戏ID"></div>
+                <div class="form-group"><input class="form-control" type="text" name="item" required placeholder="物品名称"></div>
+                <div class="form-group"><input class="form-control" type="text" name="num" required placeholder="物品数量"></div>
+                <div class="form-group">
+                    <input type="radio" name="th" value="出售"><label>出售</label>
+                    <input type="radio" name="th" value="购买"><label>购买</label>
+                </div>
+
+                <div class="form-group"><button class="btn btn-primary btn-block" type="submit">提交</button></div>
+            </form>
+            <div>
+                <h5 class="text-center">氏族同盟交易信息大厅</h5><iframe src="data/bas.php" height="235" width="500" style="border: none"></iframe></div>
+        </div>
+    </div>
+    <div class="footer-basic">
+        <footer>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Bilibili@VioletTeam丶洛 © Copyright&nbsp;</p>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="assets/js/smoothproducts.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/Bootstrap-4---Payment-Form.js"></script>
+    <script src="assets/js/Contact-FormModal-Contact-Form-with-Google-Map.js"></script>
+</body>
+
+</html>
